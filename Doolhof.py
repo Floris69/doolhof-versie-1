@@ -40,15 +40,11 @@ def print_m(m):
             print( str(m[i][j]).ljust(2),end=' ')
         print()
 
-def draw_matrix(a,m, the_path = []):
-    im = Image.new('RGB', (zoom * len(a[0]), zoom * len(a)), (255, 255, 255))
-    draw = ImageDraw.Draw(im)
+
     for i in range(len(a)):
         for j in range(len(a[i])):
           
-            r = 0
-            if a[i][j] == 1:
-                color = (0, 0, 0)
+          
          
                
                 r = borders
